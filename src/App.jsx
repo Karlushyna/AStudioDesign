@@ -20,24 +20,24 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<Routes>
+			{/* <Routes>
 				<Route index element={<Hero />} />
 				<Route path='/about' element={<About/>} />
 				<Route path='/blog' element={<Blog/>} />
 				<Route path='/cases' element={<Cases/>} />
 				<Route path='/team' element={<Team/>} />
-				<Route path='/form' element={<Form/>} />
+				<Route path='/form' element={<Form/>} /> */}
 
 
 
 
-      {/* <Hero /> */}
-      {/* <About/> */}
-      {/* <Cases/> */}
-      {/* <Blog/> */}
-      {/* <Team/> */}
-      {/* <Form/> */}
-      </Routes>
+      <Hero />
+      <About/>
+      <Cases/>
+      <Blog/>
+      <Team/>
+      <Form/>
+      {/* </Routes> */}
       <Footer/>
 		</>
 	);
