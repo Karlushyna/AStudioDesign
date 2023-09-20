@@ -1,7 +1,9 @@
 @import '../../mixins';
+@import '../../variables';
 
 .box {
 	padding: 40px 0;
+	background-color: $main;
 }
 
 .description {

@@ -23,12 +23,10 @@ function NavBar(){
 		<header style={{ backgroundColor: `${color}` }} className={styles.header}>
 			<div className="container">
 				<div className={styles.box}>
-					<Link className={styles.logo} href=''>
+					{/* <Link className={styles.logo} href=''>
 						{/* <FaBookOpen style={{ width: '40px', height: '35px' }} /> */}
-						<p>
-							Finance<span className={styles.text}>Ledger</span>
-						</p>
-					</Link>
+						{/* A PRODUCTION
+					</Link> */} 
 					<nav>
 						<ul className={styles.list}>
 							<li className={styles.item}>

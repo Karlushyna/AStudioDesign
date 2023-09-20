@@ -1,7 +1,8 @@
 @import '../../mixins';
+@import '../../variables';
 
 .section {
-	background: #0284d0;
+	background: $main;
 }
 
 .box {
@@ -18,12 +19,11 @@
 	min-height: 247px;
 		background-position: center;
 		background-size: cover;
-		background-image: url(../../assets/images/home/blog.jpg);
+		background-image: url(../../assets/img/blog.png);
 	@include media('tablet') {
 		width: 50%;
 		background-position: center;
 		background-size: cover;
-		background-image: url(../../assets/images/home/blog.jpg);
 	}
 }
 

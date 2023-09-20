@@ -1,6 +1,6 @@
-import person1 from '../../assets/images/team/person1.jpg'
-import person2 from '../../assets/images/team/person2.jpg'
-import person3 from '../../assets/images/team/person3.jpg'
+import person1 from '../../assets/img/person1.png';
+import person2 from '../../assets/img/person2.png';
+import person3 from '../../assets/img/person3.png';
 
 
 export const TeamList = [

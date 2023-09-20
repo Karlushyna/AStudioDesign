@@ -1,9 +1,9 @@
-import сases1 from '../../assets/images/cases/cases1.jpg';
-import сases2 from '../../assets/images/cases/cases2.jpg';
-import сases3 from '../../assets/images/cases/cases3.jpg';
-import сases4 from '../../assets/images/cases/cases4.jpg';
-import сases5 from '../../assets/images/cases/cases5.jpg';
-import сases6 from '../../assets/images/cases/cases6.jpg';
+import сases1 from '../../assets/img/case1.png';
+import сases2 from '../../assets/img/case2.png';
+import сases3 from '../../assets/img/case3.png';
+import сases4 from '../../assets/img/case4.png';
+import сases5 from '../../assets/img/case5.png';
+import сases6 from '../../assets/img/case6.png';
 
 export const CasesSlider = [
 	{

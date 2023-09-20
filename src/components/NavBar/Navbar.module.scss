@@ -19,8 +19,8 @@
     justify-content: center;
 	@include media('tablet') {
 		flex-direction: row;
-		justify-content: space-between;
-		max-width: none;
+		justify-content: center;
+		
 		align-items: center;
 		height: 70px;
 	}
@@ -29,7 +29,7 @@
 .logo {
 	display: flex;
 	align-items: center;
-	color: #28a745;
+	color: #c9ec79;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 28px;
@@ -56,6 +56,7 @@
 .list {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 12px;
 	margin-top: 16px;
 	
