@@ -1,7 +1,12 @@
 @import '../../mixins';
+@import '../../variables';
 
 .box {
-	padding: 64px 0 50px;
+	padding: 24px 0 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	@include media('tablet') {
 		padding: 50px 0 40px;
 	}
@@ -48,13 +53,17 @@
 	display: flex;
 	text-align: center;
 	flex-direction: column;
-	margin-top: 64px;
-	gap: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	// gap: 30px;
+	max-width: 520px;
 
-	@include media('tablet') {
+	@media screen and (min-width: $tablet) {
 		flex-direction: row;
 		gap: 18px;
 		margin-top: 24px;
+		max-width: 720px;
 	}
 }
 .img {

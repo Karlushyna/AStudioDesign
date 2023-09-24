@@ -7,7 +7,7 @@ const Blog = () => {
 			<div className={styles.box}>
 				<div className={styles.img}></div>
 				<div className={styles.description}>
-					<p className={styles.text}>April 16 2020</p>
+					<p className={styles.text}>September 19 2023</p>
 					<h1 className={styles.title}>Blog Post One</h1>
 					<p className={styles.text}>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,

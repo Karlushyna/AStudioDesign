@@ -31,14 +31,14 @@ function NavBar(){
 						<ul className={styles.list}>
 							<li className={styles.item}>
 								{/* <Link to="home"  offset={isMobile ? -120 : -70} smooth={true} duration={500}> */}
-								<Link  offset={isMobile ? -120 : -70} smooth={true} duration={500}>
+								<Link to="home" offset={isMobile ? -120 : -70} smooth={true} duration={500}>
 
 									Home
 								</Link>
 							</li>
 							<li className={styles.item}>
 								{/* <Link to="about" offset={isMobile ? -120 : -70} smooth={true} duration={500}> */}
-								<Link  offset={isMobile ? -120 : -70} smooth={true} duration={500}>
+								<Link to="about"  offset={isMobile ? -120 : -70} smooth={true} duration={500}>
 
 									About
 								</Link>

@@ -5,18 +5,18 @@ import person3 from '../../assets/img/person3.png';
 
 export const TeamList = [
     {
-        name: 'John Doe',
-        position: "President",
+        name: 'James Ash',
+        position: "Designer",
         image: person1,
     },
     {
-        name: 'Jane Doe',
-        position: "Vice President",
+        name: 'Paul Kitty',
+        position: "UI/UX Designer",
         image: person2,
     },
     {
-        name: 'Steve Smith',
-        position: "Marketing Head",
+        name: 'Sam Smith',
+        position: "Designer",
         image: person3,
     },
 ]

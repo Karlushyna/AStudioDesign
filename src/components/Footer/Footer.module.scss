@@ -1,3 +1,5 @@
+@import '../../variables';
+
 .section {
     background: #333333;
     padding: 20px 0;
@@ -11,21 +13,30 @@
 }
 
 .copirate{
-font-size: 16px;
-line-height: 22px;
-color: #ffffff;
+font-size: 14px;
+color: #d0c8ad;
 text-align: center;
 margin-top: 12px;
+
+@media screen and (min-width: $tablet) {
+    font-size: 16px;
+line-height: 22px;
+}
 }
 
 .icon {
-    color: #ffffff;
-    width: 35px;
-    height: 35px;
+    color: #c7c2c2;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     transition: all 300ms ease-in-out;
 	&:hover,
 	&:focus {
 		color: #636663;
 	}
+
+    @media screen and (min-width: $tablet) {
+        width: 35px;
+        height: 35px;
+    }
 }
