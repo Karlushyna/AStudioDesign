@@ -49,16 +49,16 @@ display: flex;
 	color: $text-color;
 	margin-top: 10px;
 	@include media('tablet') {
-		// margin: 0 122px;
-		font-size: 40px;
-		line-height: 48px;
+		margin-top: 40px;
+		// font-size: 40px;
+		// line-height: 48px;
 	}
 	
 	@include media('desktop') {
 		// width: 600px;
 		// justify-content: space-around;
 		// align-items: center;
-
+margin-top: 20px;
 font-size: 20px;
 line-height: 40px;
 	}
